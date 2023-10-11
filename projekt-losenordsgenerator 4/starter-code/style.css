@@ -1,0 +1,114 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #16111A;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the title */
+h1 {
+    color: #A638F6;
+}
+
+/* Style the slider */
+
+.slider {
+    width: 100%;
+    height: 10px;
+    -webkit-appearance: none; /* Remove default styles for webkit browsers */
+    appearance: none; /* Remove default styles for non-webkit browsers */
+    background: #ddd; /* Background color of the slider track */
+    outline: none; /* Remove outline on focus */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style the password display */
+.newPassword {
+    font-size: 1.2em;
+    background-color: #2D2039;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.label {
+    color: #FFA257;
+    margin-bottom: 5px;
+}
+
+.strength {
+    font-size: 1.2em;
+    color: #4ABEA0;
+}
+/* Style the copy button */
+.copy {
+    background-color: #4ABEA0;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style the information section */
+.informationPassword {
+    background-color: #2D2039;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style the label */
+.label {
+    position: absolute;
+    cursor: grab;
+    margin-bottom: 10px;
+}
+
+/* Style the line */
+.line {
+    position: relative;
+    height: 4px;
+    background-color: #4ABEA0;
+    margin: 10px 0;
+}
+
+/* Style the checkboxes and buttons */
+.check, .custom-button {
+    margin: 10px 0;
+}
+
+.check input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.custom-button {
+    background-color: #4ABEA0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Apply hover effect to buttons */
+.custom-button:hover, .copy:hover {
+    background-color: #FFA257;
+    color: #16111A;
+}
